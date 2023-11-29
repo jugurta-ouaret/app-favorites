@@ -1,0 +1,255 @@
+/* Global Css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 2.6rem;
+}
+
+h2{
+    font-size: 4.8rem;
+    margin-bottom: 3rem;
+    margin-top: 20rem;
+
+
+}
+
+h3{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'oswald';
+    padding-top: 7rem;
+    padding-bottom: 3rem;
+}
+
+h4, h5 {
+    font-size: 2.8rem;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+}
+
+li{
+    font-size: 2rem;
+}
+
+a{
+    color: aliceblue;
+    font-family: 'Oswald';
+    text-decoration: none;
+}
+
+/* header */
+
+.main-head {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    height: 5rem;
+}
+
+nav{
+    min-width: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+    flex: 1 1 40rem;
+}
+#bg{
+    background-image: url(Img/place-bargemon-paniermromtcm-1200x600.webp);
+    height:  700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 3rem;
+    color:aliceblue;
+    text-align: center;
+}
+
+#bg img{
+    width: 40%;
+    border-radius: 22px;
+    padding-top: 7rem;
+    padding-left: rem;
+    
+}
+
+.case{
+    background-color: rgba(0, 0, 0, 0.387);
+    background-size: cover;
+    width: 100%;
+    text-align: center;
+}
+
+#art{
+    background-image: url(Img/couple.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#art2{
+    background-image: url(Img/\ amis.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#art3{
+    background-image: url(Img/grp-amis.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pres{
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.pres div{
+      width: 100%;
+      height: 350px;
+}
+
+#intro p{
+    margin-bottom: 9rem ;
+    padding-left: 25rem;
+    padding-right: 25rem;
+    font-size: 2rem;
+}
+
+.txt  {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .txt:hover  {
+    font-size: 1.5rem;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.477);
+    opacity: 1;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    
+  }
+
+  /* slide show */
+
+  .slidershow_entrain {
+    width: 203px;
+    height: 440px;
+    /* Ajustez la hauteur selon vos besoins */
+    overflow: hidden;
+}
+
+.navigation_entrain {
+    position: absolute;
+    display: flex;
+    z-index: 1;
+    padding-left: 35px;
+}
+
+.bar_entrain {
+    width: 20px;
+    height: 5px;
+    border: 2px solid #C58BF2;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar_entrain:hover {
+    background: #C58BF2;
+}
+
+input[name="r_entrain"] {
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides_entrain {
+    width: 500%;
+    height: 100%;
+    display: flex;
+    transition: transform 0.6s ease;
+    /* Ajout d'une transition pour une animation fluide */
+}
+
+.slide_entrain {
+    width: 20%;
+    position: relative;
+    /* Ajout de position relative */
+    transition: 0.6s;
+}
+
+.slide_entrain img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+#r1_entrain:checked~.s1_entrain {
+    margin-left: 0;
+}
+
+#r2_entrain:checked~.s1_entrain {
+    margin-left: -20%;
+}
+
+#r3_entrain:checked~.s1_entrain {
+    margin-left: -40%;
+}
+
+#r4_entrain:checked~.s1_entrain {
+    margin-left: -60%;
+}
+
+.fit_imp_sec{
+    margin-left: 60rem;
+}
+  
+#ll{
+    text-align: center;
+    font-size: 2rem;
+    padding-bottom: 4rem;
+}
+
+#ll h3{
+    padding-top: 2rem;
+}
+
+img{
+    width: 30%;
+ }
+
+ #res{
+    padding-left: 60rem;
+ }
+
+#footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+

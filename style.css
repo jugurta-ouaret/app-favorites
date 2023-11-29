@@ -1,0 +1,297 @@
+/* Global Css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 2.6rem;
+}
+
+h2{
+    font-size: 4.8rem;
+}
+
+h3{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'oswald';
+}
+
+h4, h5 {
+    font-size: 2.8rem;
+    text-align: center;
+    padding-top: 4rem;
+}
+
+li{
+    font-size: 2rem;
+}
+
+a{
+    color: aliceblue;
+    font-family: 'Oswald';
+    text-decoration: none;
+}
+
+/* header */
+
+.main-head {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    height: 5rem;
+}
+
+nav{
+    min-width: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+    flex: 1 1 40rem;
+}
+
+#fond {
+    display: block;
+    width: 100%;
+    min-height: 650px;
+    background-image: url(Img/new-york.jpg);
+    font-size: 7rem;
+    color: white;
+    font-weight: bold;
+    background-attachment: fixed;
+    background-size:cover;
+    background-repeat: no-repeat;
+    }
+
+    #fond h2 {
+        padding-top: 30rem;
+        text-align: center;
+        font-size: 10rem;
+        color: rgb(245, 245, 245);
+        background-color: rgba(0, 0, 0, 0.214);
+        min-height: 650px;
+    }
+
+    #intro{
+        font-size: 2.5rem;
+        padding-left: 3.5rem;
+        padding-right: 3.5rem;
+        padding-top: 10rem;
+        padding-bottom: 10rem;
+        text-align: center;
+    }
+     
+    #arti{
+        display: flex;
+    }
+    #arti img{
+        width: 100%;
+
+    }
+
+    #texte p{
+        font-size: 1.5rem;
+        margin-top: 6rem;
+        padding-right: 7rem;
+        padding-left: 7rem;
+        font-family: 'oswald';
+        font-weight: bold;
+    }
+
+    #texte h3{
+        padding-top: 13rem;
+    }
+.slidershow{
+    width: 700px;
+    height: 400px;
+    overflow: hidden;
+}
+
+.middle{
+
+    margin-left: 50rem;
+    margin-right: 50rem;
+    margin-top: 10rem;
+
+}
+
+.navigation{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translatex(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 50px;
+    height: 10px;
+    border: 2px solid #fff;
+    margin: 6px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.bar
+
+input [name="r"]{
+    position: absolute;
+    visibility: hidden;
+}
+
+.slides{
+    width: 500%;
+    height: 100%;
+    display: flex;
+}
+
+.slide{
+    width: 20%;
+    transition: 0.6s;
+}
+
+.slide img{
+    width: 100%;
+    height: 100%;
+}
+
+#r1 :checked ~ s1 {
+    margin-left: 0;
+}
+
+#r2 :checked ~ s1 {
+    margin-left: -20%;
+}
+
+#r3 :checked ~ s1 {
+    margin-left: -20%;
+}
+
+.fit_preview_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 490px;
+    margin-top: 40px;
+    gap: 40px;
+}
+
+.wrapper {
+    position: relative;
+    height: 447px;
+    width: 676px;
+}
+
+.wrapper .img {
+    position: absolute;
+}
+
+.wrapper .img img {
+    width: 676px;
+    height: 447px;
+    object-fit: cover;
+    clip-path: circle(0% at 0% 100%);
+    transition: all 0.7s;
+    border-radius: 10px;
+}
+
+#one:checked~.img-1 img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#two:checked~.img-1 img,
+#two:checked~.img-2 img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#three:checked~.img-1 img,
+#three:checked~.img-2 img,
+#three:checked~.img-3 img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#four:checked~.img-1 img,
+#four:checked~.img-2 img,
+#four:checked~.img-3 img,
+#four:checked~.img-4 img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+#five:checked~.img-1 img,
+#five:checked~.img-2 img,
+#five:checked~.img-3 img,
+#five:checked~.img-4 img,
+#five:checked~.img-5 img {
+    clip-path: circle(150% at 0% 100%);
+}
+
+.wrapper .sliders {
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 99;
+    display: flex;
+}
+
+.wrapper .sliders label {
+    border: 2px solid rgb(197, 139, 242);
+    width: 13px;
+    height: 13px;
+    margin: 0 3px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: all 0.9s ease;
+}
+
+#one:checked~.sliders label.one,
+#two:checked~.sliders label.two,
+#three:checked~.sliders label.three,
+#four:checked~.sliders label.four,
+#five:checked~.sliders label.five {
+    width: 35px;
+    border-radius: 14px;
+    background: rgb(197, 139, 242);
+}
+
+.sliders label:hover {
+    background: rgb(197, 139, 242);
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+#footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+}
+
+img{
+    width: 30%;
+ }
+
+ #res{
+    padding-left: 60rem;
+ }

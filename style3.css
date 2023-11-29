@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 2.6rem;
+}
+
+h2{
+    font-size: 4.8rem;
+    margin-bottom: 2rem;
+}
+
+h3{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'oswald';
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+h4, h5 {
+    font-size: 2.8rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+li{
+    font-size: 2rem;
+}
+
+a{
+    color: aliceblue;
+    font-family: 'Oswald';
+    text-decoration: none;
+}
+
+/* header */
+
+.main-head {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    height: 5rem;
+}
+
+nav{
+    min-width: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+    flex: 1 1 40rem;
+}
+
+#tête{
+    background-color: rgb(254, 252, 0);
+    height: 60rem;
+    display: flex;
+    flex-direction: row-reverse;
+}
+#tête img{
+      width: 80%;
+}
+
+#tête div{
+    background-size: cover;
+    width: 100%;
+}
+
+#text{
+    padding-top: 18rem;
+    padding-left: 15rem;
+    font-family: 'Oswald';
+    font-size: 3rem;
+    text-align: center;
+    padding-right: 14rem;
+}
+
+
+
+#art{
+    background-image: url(Img/fondateurs\ snap.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#art2{
+    background-image: url(Img/snapchatcapture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#art3{
+    background-image: url(Img/gars-heureux-pouce-fond-blanc.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.pres{
+    display: flex;
+    margin-bottom: 3rem;
+}
+
+.pres div{
+      width: 100%;
+      height: 350px;
+}
+
+#intro p{
+    margin-bottom: 9rem ;
+    padding-left: 25rem;
+    padding-right: 25rem;
+    font-size: 2rem;
+}
+
+.txt  {
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  
+  .txt:hover  {
+    font-size: 1.5rem;
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.477);
+    opacity: 1;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    
+  }
+
+  #tele img{
+    width: 50rem;
+
+  }
+
+  #tele{
+    display: flex;
+  }
+
+  #tele{
+    margin-left: 20rem;
+  }
+  
+  .apple{
+    padding-top: 17rem;
+  }
+
+  img{
+    width: 30%;
+ }
+
+ #res{
+    padding-left: 60rem;
+ }
+
+  footer{
+    background-color: black;
+    text-align: center;
+    color: aliceblue;
+    font-size: 2rem;
+  }

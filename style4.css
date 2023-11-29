@@ -1,0 +1,152 @@
+/* Global Css */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 2.6rem;
+}
+
+h2{
+    font-size: 4.8rem;
+    padding-top: 30rem;
+    text-align: center;
+}
+
+h3{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'oswald';
+    padding-bottom: 2rem;
+    padding-top: 3rem;
+    color: red;
+}
+
+h4, h5 {
+    font-size: 2.8rem;
+    text-align: center;
+    padding-top: 6rem;
+    padding-bottom: 3rem;
+    color: red;
+}
+
+li{
+    font-size: 2rem;
+}
+
+a{
+    color: aliceblue;
+    font-family: 'Oswald';
+    text-decoration: none;
+}
+
+/* header */
+
+.main-head {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    height: 5rem;
+}
+
+nav{
+    min-width: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+#logo {
+    flex: 1 1 40rem;
+}
+
+
+#back{ 
+
+    background-image: url(Img/logoyoutube.jpg);
+    background-size: cover;
+    height:  70rem;
+    color: aliceblue;
+
+}
+
+#intro{
+    padding-left: 10rem;
+    padding-right: 10rem;
+    font-size: 1.7rem;
+    margin-bottom: 4rem;
+}
+
+.article{
+      
+    width: 100%;
+    display: flex;
+    font-size: 2rem;
+
+}
+
+.article img{
+    width: 70rem;
+    border-radius: 5%;
+}
+
+#txt{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+
+.article2{
+      
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 2rem;
+
+}
+
+.article2 img{
+    width: 70rem;
+    border-radius: 5%;
+}
+
+#txt2{
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.footer{
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 5rem;
+}
+ img{
+    width: 30%;
+ }
+
+ #res{
+    padding-left: 60rem;
+ }
+
+
+
+
+

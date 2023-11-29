@@ -1,0 +1,164 @@
+.contact{
+    background: url(../ville-marseille/Logo/Marseille.jpg) no-repeat;
+    min-height: 100vh;
+    background-size: cover ;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 100px 15px;
+}
+.contact .container{
+    max-width: 900px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 60px 10px;
+    border-radius: 15px;
+    box-sizing: border-box;
+    box-shadow: rgb(214, 214, 214) 0px 10px 50px -10px ;
+}
+.contact .container .titre{
+    text-align: center;
+    color: #2a2a2a;
+    margin-bottom: 70px;
+}
+.contact .container .titre h6{
+    font-size: 1.2em; 
+}
+.contact .container .titre h3{
+    font-size: 3em;
+}
+.contact .container form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+}
+.contact .container form input{
+    width: 45%;
+}
+.contact .container form textarea{
+    width: 100%;
+    resize: none;
+    height: 100px;
+    margin-bottom: 60px;
+}
+.contact .container form textarea,.contact .container form input{
+    margin: 15px 0;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid #e4e4ec;
+    transition: 0.2s;
+}
+.contact .container form button{
+    width: 192px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1fb3bf;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2em;
+    cursor: pointer;
+    outline: none;
+    margin: 0 auto;
+    transition: 0.2s;
+}
+.contact .container form input:hover,.contact .container form textarea:hover{
+    border-bottom: 2px solid #1fb3bf;
+}
+.contact .container form button:hover{
+    transform: translateY(-5px);
+    box-shadow: rgb(214, 214, 214) 0px 10px 40px 0px ;
+}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 2.6rem;
+}
+
+h2{
+    font-size: 4.8rem;
+    margin-bottom: 2rem;
+}
+
+h3{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'oswald';
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+}
+
+h4, h5 {
+    font-size: 2.8rem;
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+
+li{
+    font-size: 2rem;
+}
+
+a{
+    color: aliceblue;
+    font-family: 'Oswald';
+    text-decoration: none;
+}
+
+/* header */
+
+.main-head {
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    height: 5rem;
+}
+
+nav{
+    min-width: 10vh;
+    display: flex;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+    padding: 1rem;
+}
+
+nav ul{
+    display: flex;
+    flex: 1 1 40rem;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+img{
+    width: 30%;
+ }
+
+ #res{
+    padding-left: 60rem;
+ }
+
+.footer{
+    background-color: black;
+    color: #e4e4ec;
+    height: 4rem;
+    font-size: 2rem;
+    text-align: center;
+}
